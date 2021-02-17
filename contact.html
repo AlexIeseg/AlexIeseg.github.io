@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="McDonald's">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="fontawesome/css/all.css">
+		<link rel="icon" href="images/ico/mcdonalds.png">
+		<title>Contact Us</title>
+    </head>
+
+    <section id="map_contact">
+
+        <span class="voilebleu"></span>
+
+        <iframe class="Formulaire" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.7555736538775!2d2.3472248217036005!3d48.87285035966736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1536283991131" width="1900" height="600" style="border:0" allowfullscreen></iframe>
+        
+        <button class="button" onclick="goBack()">Go Back</button>
+        <script>
+        function goBack() {
+        window.history.back();
+        }
+        </script>
+        
+        <form class="case_formulaire" method="post">
+
+            <fieldset class="TextContact">
+                <h2>Contact Info</h2>
+                <p><strong>McDonald's Best Sellers</strong><br>
+                25 Rue d'Hauteville 75010 Paris<br>
+                Tel : 01 02 03 04 05<br><br></p>
+
+                <input type="text" name="Pseudo" required id="Pseudo" placeholder="Name"><br>
+                <input type="email" name="Email" required id="Email" placeholder="E-mail"><br>
+                <input type="text" name="Sujet" required id="Sujet" placeholder="Subject"><br>
+                <textarea name="Message" required id="Message" placeholder="Message"></textarea><br>
+                <input type="submit" name="Send Message" value="Send Message" id="Envoyer">
+                
+            </fieldset>
+
+        </form>
+
+        <div class="cards">
+            
+            <div class="card">
+                <img class="img" src="img_avatar.png" alt="Avatar">
+                <div class="container">
+                  <h4><b>John Smith</b></h4>
+                  <p>Foodie n°1</p>
+                </div>
+            </div>
+           
+            <div class="card">
+                <img class="img" src="img_avatar2.png" alt="Avatar">
+                <div class="container">
+                  <h4><b>Martha Smith</b></h4>
+                  <p>Foodie N°2</p>
+                </div>
+            </div>
+
+                <p class="paragjohnmartha"><b>About Us :</b><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> 
+                Ut imperdiet at orci sit amet lacinia. Nunc lectus arcu, eleifend in dapibus nec, tristique elementum justo. <br>
+                Nullam consequat placerat interdum. Donec ligula lectus, ultrices nec dictum eget, finibus eu ligula. <br>
+                Donec accumsan justo justo, id vulputate justo dapibus quis. Etiam ut.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> 
+                Ut imperdiet at orci sit amet lacinia. Nunc lectus arcu, eleifend in dapibus nec, tristique elementum justo. <br>
+                Nullam consequat placerat interdum. Donec ligula lectus, ultrices nec dictum eget, finibus eu ligula. <br>
+                Donec accumsan justo justo, id vulputate justo dapibus quis. Etiam ut.Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> 
+                Ut imperdiet at orci sit amet lacinia. Nunc lectus arcu, eleifend in dapibus nec, tristique elementum justo. <br>
+                Nullam consequat placerat interdum. Donec ligula lectus, ultrices nec dictum eget, finibus eu ligula. <br>
+                Donec accumsan justo justo, id vulputate justo dapibus quis. Etiam ut.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> 
+                Ut imperdiet at orci sit amet lacinia. Nunc lectus arcu, eleifend in dapibus nec, tristique elementum justo. <br>
+                Nullam consequat placerat interdum. Donec ligula lectus, ultrices nec dictum eget, finibus eu ligula. <br>
+                Donec accumsan justo justo, id vulputate justo dapibus quis. Etiam ut.
+                </p>
+
+        </div>
+    
+    </section>
+
+</body>
+
+</html>

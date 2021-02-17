@@ -1,0 +1,680 @@
+@font-face
+{
+  font-family: 'Roboto-Regular';
+  src: url('fonts/Roboto-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face
+{
+  font-family: 'Roboto-Medium';
+  src: url('fonts/Roboto-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face
+{
+  font-family: 'Roboto-Bold';
+  src: url('fonts/Roboto-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+body
+{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  flex-direction: column;
+  font-family: 'Roboto-Regular';
+  color: #666666;
+}
+
+#En-tête
+{
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background: white;
+  z-index: 10;
+}
+
+#logo 
+{
+  display: flex;
+  width: 200px;
+  margin: 14%;
+}
+
+#menu
+{
+  margin-right: 14%;
+  font-size: 1em;
+}
+
+#menu ul
+{
+  display: flex;
+  list-style-type: none;
+  color: #999999;
+}
+
+#menu li
+{
+  padding: 10px;
+}
+
+#menu a
+{ 
+  text-decoration: none;
+  color: #999999;
+}
+
+#menu a:hover
+{
+  margin: 0;
+  padding-top: 33px; 
+  border-top: 3px solid #ed1729;
+  color: black;
+}
+
+/* ------CSS DU SLIDER------*/
+
+#slider
+{
+  position: relative;
+  padding-top: 90px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide
+{
+  width: 100%;
+}
+.slides
+{
+  margin: 0;
+}
+.banner figcaption
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 30%;
+  height: 80%;
+  color: white;
+}
+
+.web strong
+{
+  color:#ed1729;
+}
+
+.web
+{
+  font-family: 'Roboto-Medium';
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.Parag
+{
+  font-family: 'Roboto-Medium';
+  font-size: 1.1em;
+  margin-top: 0px;
+}
+
+
+#texte1 
+{
+  position: absolute;
+  width: 40%;
+  top: 40%;
+  left: 7%;
+}
+
+.bouton_infos 
+{
+  width: 110px;
+  height: 35px;
+  margin-top: 3px;
+  border-bottom: 3px solid #faf62a;
+  border-radius: 4px;
+  text-decoration: none;
+  background:#ed1729;
+  color: white;
+  line-height: 35px;
+  text-align: center;
+}
+
+/*------FIN CSS DU SLIDER------*/
+
+#services 
+{
+  position: relative;
+  width: 100%;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #efe5cc;
+}
+
+h2
+{
+  font-family: 'Roboto-Bold';
+  color: black;
+  font-size: 40px
+}
+
+h3
+{
+  font-family: 'Roboto-Bold';
+  color: black;
+}
+
+.intro
+{
+  text-align: center;
+}
+.projet
+{
+  width: 250px;
+  height: 160px;
+}
+
+#Section2, #project
+{
+  background-color: #f0efefa4;
+}
+#Section2
+{
+  padding-top: 70px;
+}
+
+hr
+{
+  width: 150px;
+  opacity: 0.3;
+}
+
+.fa-circle 
+{
+  position: relative;
+  bottom: 21px;
+  color: #ed1729;
+  border: 4px solid rgb(245, 242, 48); 
+  border-radius: 50%;
+  font-size: 80%;
+}
+
+.Nos_Services, #Nos_Projets, #map_contact 
+{
+    padding-top: 0px;
+}
+
+.icones
+{
+  position: relative;
+  right: 75px;
+  bottom: 50px;
+  color: #4990b0;
+}
+
+.icones .fa-circle 
+{
+  position: relative;
+  bottom: 3px;
+  left: -12px;
+  border: 3px solid rgb(241, 238, 44);
+  border-radius: 50%;
+  font-size: 0.7em;
+}
+
+.description 
+{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-top: 40px;
+  padding: 30px;
+  justify-content: center;
+  font-size: 0.9em;
+}
+
+.man
+{
+  width: 510px;
+  height: 419px;
+  padding-left: 150px;
+}
+
+.littleman
+{
+  padding-right: 100px;
+}
+
+.liste
+ {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.ListeServices
+{
+  display: flex;
+  flex-direction: column;
+  width: 510px;
+  text-align: left;
+  padding-top: 65px;
+  padding-left: 100px
+}
+
+.liste h3 
+{
+  margin: 3px;
+}
+
+.liste p 
+{
+  margin: 2px;
+  font-size: 0.9em;
+}
+
+#project
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 70px;
+}
+.blabla
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.mousehover
+{
+  visibility: hidden;
+  width: 250px;
+  height: 60px;
+  position: relative;
+  bottom: 40%;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.mousehover h4 
+{
+  margin: 0;
+  padding: 15px 15px 5px 15px;
+}
+
+.mousehover p 
+{
+  height: 54px;
+  margin: 0;
+  padding: 0px 15px 0 15px;
+  font-size: 0.9em;
+}
+
+figure:hover figcaption
+{
+  visibility: visible;
+}
+
+.imgportfolio
+{
+  margin: 0px;
+  padding: 15px;
+  height: 160px;
+}
+
+
+nav input[type=checkbox]
+{
+  display: none;
+}
+
+nav label
+{
+  display: none;
+}
+
+#map_contact
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#map_contact
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+  .voilebleu
+  {
+    position: absolute;
+    background-color: rgba(90, 172, 209, 1);
+    width: 100%;
+    height: 600px;
+  }
+
+  .Formulaire
+  {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(90, 172, 209);
+    border: 0;
+    top: 0;
+    height: 600px;
+  }
+
+.TextContact 
+{
+  position: relative;
+  text-align: left;
+  width: 294px;
+  height: 450px;
+  top: 40px;
+  padding: 12px;
+  margin-left: 70%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0;
+}
+
+.TextContact  h2 
+{
+  font-family: 'Roboto-Medium';
+  margin: 7px;
+  color: black;
+  font-size: 1.4em;
+}
+
+.TextContact  strong 
+{
+  font-family: 'Roboto-Medium';
+}
+
+.TextContact  p 
+{
+  font-size: 0.9em;
+  margin: 7px;
+}
+
+.TextContact input, textarea 
+{
+  
+  width: 280px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  color: #696969;
+  font-family: 'Roboto-Medium';
+  font-size: 0.8em;
+}
+
+textarea
+{
+  height: 150px;
+}
+
+#Envoyer
+{
+  width: 100px;
+  height: 35px;
+  margin-top: 3px;
+  border-bottom: 3px solid #136084;
+  border-radius: 4px;
+  text-decoration: none;
+  background: #4990b0;
+  color: white;
+  font-size: 0.8em
+}
+
+iframe
+{
+  width: 100%;
+}
+
+.cards{
+  display: flex; 
+  margin-top: 150px; 
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;  
+  border-radius: 5px;
+  margin: 20px; 
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+.img{
+  border-radius: 5px 5px 0 0;
+}
+.paragjohnmartha
+{
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.button
+{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  margin: 30px;
+}
+
+@media screen and (max-width: 1280px)
+{
+  .littleman
+  {
+    padding-left: 100px;
+  }
+
+  .ListeServices
+  {
+    padding-top: 0px;
+  }
+  .TextContact
+  {
+    margin-left: 60%;
+  }
+  .card
+  {
+    display: none;
+  }
+  .cards{
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1060px)
+{
+  #logo
+  {
+    margin-left: 0px;
+  }
+  #texte1
+  {
+   font-size: 0.6em;
+  }
+  
+  #menu
+  {
+    padding-top: 29px;
+  }
+ .test2 
+ {
+    position: relative;
+    right: -20%;
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    font-family: Roboto-Regular;
+    color: #ed1729;
+  }
+
+  #test:checked+.menu_responsive 
+  {
+    display: block;
+  }
+
+  #menu
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 30%;
+  }
+
+  #menu ul 
+  {
+    display: none;
+    margin: 0;
+    text-align: center;
+    background: white;
+    font-size: 1.1em;
+    opacity: 0.9;  
+  }
+
+  #menu li 
+  {
+    margin: 0;
+    padding: 10px;
+  }
+
+  #menu a:hover 
+  {
+    border-top: 0;
+    padding-top: 0;
+    color: black;
+  }
+
+  .TextContact
+  {
+    margin-left: 50%;
+  }
+
+
+}
+
+@media screen and (max-width: 720px)
+{
+  .icones, .man
+  {
+    display: none;
+  }
+
+  #texte1 
+  {
+    font-size: 1em;
+  }
+
+  .web
+  {
+   display: none;
+  }
+
+  .TextContact
+  {
+    justify-content: center;
+    background-color: white;
+    opacity: 1;
+    margin: 50px;
+  }
+  .button
+  {
+    margin-left: 50px;
+  }
+
+  .ListeServices
+  {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .menu_projet ul
+  {
+    width: 320px;
+    height: 40px;
+  }
+
+  .menu_projet li
+  {
+    width: 80px;
+    height: 40px;
+    margin: 0;
+  }
+
+  .menu_projet span
+  {
+    font-size: 0.9em;
+  }
+  .commandes
+  {
+    display: none;
+  }
+
+  .fa-chevron-left, .fa-chevron-right
+  {
+    display: none;
+  }
+  .Formulaire
+  {
+    display: none;
+  }
+
+  .TextContact
+  {
+    border: 1px solid grey;
+    border-radius: 3px
+  }
+  .voilebleu
+  {
+    background-color: #f0efefa4;
+  }
+}
+
+@media screen and (max-width: 380px)
+{
+  .web
+  {
+    font-family: 'Roboto-Medium';
+    font-size: 100%;
+    padding-top: 15%;
+    margin: 0;
+  }
+}
